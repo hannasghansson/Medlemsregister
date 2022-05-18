@@ -1,0 +1,41 @@
+<%- include('header') %>
+
+
+<article id="member">
+
+  <section id="memberHeader">
+    <h2>Our Members</h2>
+    <p>Lorem ipsum dolor sit amet, in tamquam admodum alienum pri.
+      Malorum persecuti definitionem ne mei, ei has bonorum consetetur persequeris. 
+      Pri an nemore option tacimates.
+      Mea eripuit facilisi eleifend no, diceret feugiat hendrerit quo id. 
+      Dolore cotidieque mel ex. Eam fugit qualisque philosophia eu, eu sale deserunt invenire qui
+    </p>
+  </section>
+
+  <section id="memberSort">
+    <a href='/memberPage/sort/a'>A-Ö</a>
+    <a href='/memberPage/sort/b'>Ö-A</a>
+    <a href="/memberList/">Oldest</a>
+  </section>
+
+  <section id="memberList">
+    <ul>
+      <% members.forEach(member => { %>
+        <li>
+          <a href="/memberPage/<%= member._id %>">
+            Name: <%= member.name %><i class="fa fa-chevron-right arrowLeft" style="float:right; font-size:20px;"></i>
+          </a>
+        </li>
+      <% }) %>
+    </ul>
+  </section>
+
+  
+
+</article>
+
+
+
+
+<%- include('footer') %>

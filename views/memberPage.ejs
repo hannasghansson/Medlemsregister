@@ -1,0 +1,44 @@
+<%- include('header') %>
+
+<article id="memberPage">
+
+  <section id="memberpageHeader">
+     <h2>Memberpage</h2>
+     <p> Lorem ipsum dolor sit amet, in tamquam admodum alienum pri.</p>
+  </section>
+
+
+  <section id="memberpageInfo">
+    <h2><%= name %></h2>
+    <p>Email: <%= email %></p>
+    <p>Phone: <%= phone %></p>
+    <br>
+
+    <p>Description:<br> <%= description %></p>
+    <br>
+
+    <p>Account created:<br> <%= createdAccount %></p>
+    <br>
+    <section id="memberpageBtn">
+      <a class="change" href="/edit/<%=_id %>">Change Member</i></a>
+      <br>
+      <br>
+  
+      <form method="post" action="/delete/<%= _id %>">
+        <button id="delete">Delete member</button>
+      </form>
+  
+      <section class="Back">
+        <a href="/memberList/"> <i class="fa fa-arrow-left"></i></a> Back to member list</a>
+      </section>
+  
+    </section>
+  </section>
+
+  
+
+</article>
+
+
+
+<%- include('footer') %>

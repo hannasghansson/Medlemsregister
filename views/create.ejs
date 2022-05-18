@@ -1,0 +1,40 @@
+<%- include('header') %>
+
+
+<article id="create">
+
+  <section id="createHeader">
+    <a href="/startpage/"><i class="fa fa-window-close" style="color: black; float:right; font-size:24px"></i></a> 
+    <h2>Creat a new user</h2>
+    <p>Fill in the information to creat a new member</p>
+  </section>
+
+  <section id="createForm">
+    <form method="post" id="creatFrom">
+      <label for="name"> Name</label>
+      <input type="text" name="name" placeholder="Name" id="name">
+      <br>
+  
+      <label for="email">Email</label>
+      <input type="text" name="email" placeholder="Email" id="email">
+      <br>
+  
+      <label for="phone">Phone</label>
+      <input type="number" name="phone" placeholder="Phone" id="phone">
+      <br>
+  
+      <label for="description"> Description</label>
+      <input type="text" name="description" placeholder="Description" id="description">
+      <br>
+  
+      <button id="save">Save new member <i class="fa fa-star"></i></button>
+      <section class="Back">
+        <a href="/memberList/"> <i class="fa fa-arrow-left"></i> Back To MemberList</a>
+      </section>
+    </form>
+  </section>
+
+</article>
+
+
+<%- include('footer') %>

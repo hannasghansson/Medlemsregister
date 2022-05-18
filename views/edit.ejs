@@ -1,0 +1,47 @@
+<%- include('header') %>
+
+
+
+<article id="edit">
+  <section id="editHeader">
+    <h2>Edit User</h2>
+    <p>
+      Lorem ipsum dolor sit amet, in tamquam admodum alienum pri. Malorum persecuti definitionem ne mei, ei has bonorum consetetur persequeris. 
+      Pri an nemore option tacimates. 
+    </p>
+  </section>
+
+  <section id="editForm">
+    
+    <form action="/edit/<%= _id %>" method="POST">
+      
+        <label for="name">Name</label>
+        <input type="text" name="name" value='<%=name%>'>
+        <br>
+    
+        <label for="email">Email</label>
+        <input type="text" name="email" value='<%=email%>'> 
+        <br>
+    
+        <label for="phone">Phone</label>
+        <input type="number" name="phone" value='<%=phone%>'> 
+        <br>
+    
+        <label for="description">Description</label>
+        <input id="description" type="text" name="description" value='<%=description%>'> 
+        <br>
+
+      <button>Save</button> 
+      <section class="Back">
+        <a href="/memberList/"> <i class="fa fa-arrow-left"></i> Back to memberlist</a>
+      </section>
+    </form>
+  </section>
+
+    
+</article>
+
+
+
+
+<%- include('footer') %>

@@ -1,0 +1,366 @@
+/*Comapany Name*/
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+/*Generellt*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+/*Signatur*/
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/*Header*/
+header {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  border-bottom: 1px solid #dbdbdb;
+  color: #111827;
+}
+
+h1 {
+  font-family: "Architects Daughter", "cursive";
+}
+
+nav {
+  padding: 20px;
+}
+
+nav a {
+  color: #111827;
+  margin-left: 15px;
+}
+
+/*Home*/
+
+#startpage {
+  align-items: center;
+  height: 800px;
+  margin: 8%;
+  background-image: url(./START-joe-moreno-BWUPES6p8mQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#startpageText h2 {
+  font-family: "Architects Daughter", "cursive";
+  margin-bottom: 5%;
+}
+
+#startpageText {
+  color: #fff;
+  padding: 10%;
+  margin-right: 60%;
+}
+
+#sign {
+  font-family: "Homemade Apple", "cursive";
+  font-size: 2.5vh;
+}
+
+/*create*/
+
+#create {
+  margin: 8%;
+  padding: 8%;
+  background-color: rgb(236, 216, 202);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#createHeader {
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+  padding: 4%;
+  margin-bottom: 4%;
+  width: 45%;
+  border-radius: 4px;
+}
+
+#createHeader h2 {
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+#createHeader p {
+  padding: 0 5% 0 5%;
+}
+
+#createForm {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  width: 45%;
+  padding: 5%;
+  border-radius: 4px;
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 5%;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+#save {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin: 10% 0% 5% 0%;
+  background-color: rgb(249, 250, 251);
+  color: #111827;
+  border: 0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#save:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+/*memberList*/
+#member {
+  align-items: center;
+  height: 150vh;
+  margin: 8%;
+  background-color: rgb(236, 216, 202);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 8%;
+}
+
+#memberHeader h2 {
+  margin-bottom: 1%;
+  color: #fff;
+}
+
+#memberHeader p {
+  margin-bottom: 10%;
+  color: #fff;
+}
+
+#memberSort {
+  text-align: center;
+}
+
+#memberSort a {
+  background-color: #fff;
+  color: #111827;
+  padding: 1.5% 5%;
+  margin: 4%;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: white;
+  text-transform: uppercase;
+  color: #111827;
+  line-height: 6rem 2rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+
+#memberSort a:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+#memberList {
+  color: #fff;
+  margin: 5%;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  padding: 3%;
+  margin-bottom: 5%;
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+}
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.arrowLeft {
+  color: #fff;
+}
+
+#createBtn {
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  width: 40%;
+  color: #111827;
+  padding: 1.5% 5%;
+  margin: 4%;
+  font-size: 14px;
+  background-color: white;
+  color: #111827;
+  line-height: 6rem 2rem;
+  border: 1px solid #dbdbdb;
+  text-shadow: 0px 1px 0px #ffffff;
+  cursor: pointer;
+}
+
+#createBtn:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+/*MemberPage*/
+
+#memberPage {
+  align-items: center;
+  margin: 8%;
+  padding-bottom: 3%;
+  background-color: rgb(236, 216, 202);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#memberpageHeader {
+  color: #fff;
+  border-radius: 4px;
+  width: 90vh;
+  padding: 10% 10% 3% 11%;
+}
+
+#memberpageInfo {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  width: 36%;
+  padding: 3%;
+  margin: 0 0 10% 10%;
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+#memberpageInfo h2,
+#memberpageInfoBox p {
+  margin-bottom: 1%;
+}
+
+#memberpageBtn {
+  padding-top: 5%;
+}
+
+.change {
+  margin-top: 5%;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: white;
+  text-transform: uppercase;
+  color: #111827;
+  line-height: 5rem 1rem;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+
+.change:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+#delete {
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: white;
+  text-transform: uppercase;
+  color: #111827;
+  border: 0;
+  width: 42%;
+  line-height: 5rem 1rem;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+
+#delete:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+/*EDIT USER*/
+#edit {
+  align-items: center;
+  margin: 8%;
+  padding-bottom: 2%;
+  background-color: rgb(236, 216, 202);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#editHeader {
+  color: #fff;
+  border-radius: 4px;
+  width: 90vh;
+  padding: 10% 10% 3% 11%;
+}
+
+#editHeader h2,
+#editHeader p {
+  color: #fff;
+}
+
+#editForm {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  width: 30%;
+  padding: 3%;
+  margin: 0 0 10% 10%;
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+#edit button {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin: 10% 0% 5% 0%;
+  background-color: rgb(249, 250, 251);
+  color: #111827;
+  border: 0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#edit button:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+.Back {
+  margin-top: 5%;
+}
+
+.Back a {
+  color: #111827;
+}
+
+/*FOOTER*/
+footer {
+  text-align: center;
+}
+
+footer h2 {
+  text-align: center;
+
+  font-family: "Architects Daughter", "cursive";
+}
